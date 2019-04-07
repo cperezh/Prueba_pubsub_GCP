@@ -20,7 +20,7 @@ public class PublisherExample {
   public static void main(String[] args) throws Exception {
     // topic id, eg. "my-topic"
     String topicId = "test";
-    int messageCount = 1000;
+    int messageCount = 100;
     ProjectTopicName topicName = ProjectTopicName.of(PROJECT_ID, topicId);
     Publisher publisher = null;
     List<ApiFuture<String>> futures = new ArrayList<>();
